@@ -4,7 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 html,body{
 height: 100%;
-
+width: 100%;
 }
 h1,h3{
 	font-family: 'Ribeye', cursive;
@@ -27,7 +27,7 @@ float: left;
 
 div#content {
 width: 940px;
-height: 280px;
+/*height: 280px;*/
 margin: 0 auto;
 clear: both;
 position: relative;
@@ -84,7 +84,7 @@ margin-right: 15px;
 .main_box{
 float: left;
 width: 500px;
-height: 95px;
+/*height: 95px;*/
 padding: 25px;
 }
 

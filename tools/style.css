@@ -4,6 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 html,body{
 height: 100%;
+
 }
 h1,h3{
 	font-family: 'Ribeye', cursive;
@@ -19,7 +20,7 @@ font-family:"Helvetica Neue",Helvetica, Arial;
 div#shim{
 visibility: hidden;
 width: 100%;
-height: 50%;                                                                     
+height: 25%;                                                                     
 margin-top: -140px;                                                              
 float: left;
 }
@@ -54,11 +55,12 @@ float: left;
 border-right: 1px solid #303030;
 height: 280px;
 position: relative;
+margin-top: 35%;
 }
 
 h1{
 padding: 12px 70px 12px 20px;
-position: absolute;
+/*position: absolute;*/
 right: 0;
 text-align:left;
 top: 25%;
@@ -121,7 +123,7 @@ clear: both;
 float: left;
 }
 
-ul.info li p{
+ul.info li span{
 font-size: 13px;
 line-height: 20px;
 color: #fff;
@@ -133,7 +135,7 @@ margin: 0;
 ul.info li p.social a.tw{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) left top no-repeat;
+background: url(../images/whatsapp.png) left top no-repeat;
 margin-right: 8px;
 float: left;
 }
@@ -216,4 +218,5 @@ margin-right: 5px;
 #phone{
 	    font-size: medium;
     padding-top: 7px;
+
 }
